@@ -8,6 +8,7 @@ import AboutUs from "./assets/pages/AboutUs";
 import Home from "./assets/pages/Home";
 import Shop from "./assets/pages/Shop";
 import Login from "./assets/pages/Login";
+import Git from "./assets/pages/git";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <div className="">
           <Navbar />
         </div>
+        <Git />
         <div>
           
           <Routes>
