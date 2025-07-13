@@ -2,13 +2,13 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import Products from "./assets/pages/Products";
-import Contact from "./assets/pages/Contact";
-import AboutUs from "./assets/pages/AboutUs";
-import Home from "./assets/pages/Home";
-import Shop from "./assets/pages/Shop";
-import Login from "./assets/pages/Login";
-import Git from "./assets/pages/git";
+import Products from "./pages/Products";
+import Contact from "./pages/Contact";
+import AboutUs from "./pages/AboutUs";
+import Home from "./pages/Home";
+import Shop from "./pages/Shop";
+import Login from "./pages/Login";
+import Git from "./pages/git";
 
 function App() {
   return (
